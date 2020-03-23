@@ -49,7 +49,7 @@
             <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="James Lee" />
             <div class="profile-content float-left">
                 <h1 class="name">Jake Morales</h1>
-                <h2 class="desc">Web Developer</h2>   
+                <h2 class="desc">Full Stack Developer</h2>   
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/jakehmorales/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/jmora060/" target="_blank"><i class="fab fa-github-alt"></i></a></li>    
@@ -68,23 +68,74 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I am currently seeking full-time positions or internships in Web Development. My passion is building scalable web-enabled applications. I am a fast learner, and I am constantly teaching myself new frameworks, libraries, languages, etc.  </p>
+                            <p>I am currently seeking full-time positions Web Development. My career goal is to build web applications that have a positive impact on others. I am a fast learner, and I am constantly teaching myself new tools and technologies.</p>
                          
                         </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Full Stack Developer<span class="place"><a href="#">Rückbau</a></span> <span class="year">(Nov 2019 - Present)</span></h3>
+                                <p>
+                                    <ul>
+                                        <li>Developed “TryOurWine” as a tool for consumers to conveniently find wines sold by our clients</li>
+                                        <li>Proposed a pivot table library to improve development of tabular data and enhance user experience</li>
+                                        <li>Pitched and built a Progressive Web App to demonstrate its advantages over React Native</li>
+                                    </ul>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Manager <span class="place"><a href="#">Rolling Robots</a></span> <span class="year">(Sept 2018 - Present)</span></h3>
+                                <p>
+                                    <ul>
+                                        <li>Demonstrates leadership skills by scheduling 4 employees, organizing facilities, and coordinating curriculum</li>
+                                    </ul>
+                                </p>
+                            </div><!--//item-->
+                        </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
                <section class="latest section">
                     <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
+                        <h2 class="heading">Projects</h2>
                         <div class="content">    
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="https://shareq.app" target="_blank">
+                                <a class="col-md-4 col-12" href="http://tryourwine.com/demo" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="http://tryourwine.com/demo" target="_blank">TryOurWine</a></h3>
+                                    <p class="mb-2">TryOurWine is a web app for finding wine vendors in your area. I built it for my current team at Ruckbau.
+                                        <ul>
+                                            <li>Used Materialize CSS framework for out-of-the-box responsive design and styling to increase development velocity</li>
+                                            <li>Increased performance of filtering markers on a Google Map to constant time by using an index data structure</li>
+                                            <li>Improved security by integrating reCaptcha service to prevent web scraping of proprietary data</li>
+                                            <li>Served frontend and backend from the same server to simplify deployments and avoid CORS security issues</li>
+                                        </ul>
+                                    </p>
+                                    <p><a class="more-link" href="http://tryourwine.com/demo" target="_blank"><i class="fas fa-external-link-alt"></i>See live demo</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://shareq.app" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/project-5.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://shareq.app" target="_blank">ShareQ</a></h3>
-                                    <p class="mb-2">ShareQ is a web app that lets users create a shared playlist with friends and vote for which song to play next on Spotify. I built a React frontend and Django backend, and it uses the Spotify Web API. </p>
+                                    <p class="mb-2">ShareQ is a web app that enables users to collaborate on Spotify playlists with friends and vote for which song to plays next in the queue.
+                                        <ul>
+                                            <li>Built the frontend with React.js to abstract the complexity of developing a UI that frequently updates</li>
+                                            <li>Used the socket.io library for resilient real-time updates by reconnecting websockets during network errors</li>
+                                            <li>Decreased critical load times by storing frequently updated data in memory with Redis instead of disk storage</li>
+
+                                        </ul>
+                                    </p>
                                     <p><a class="more-link" href="https://github.com/jmora060/shareq" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub - React Frontend</a></p>
                                     <p><a class="more-link" href="https://github.com/jmora060/shareqbackend/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub - Django Backend</a></p>
                                 </div><!--//desc-->                          
@@ -92,11 +143,17 @@
 
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://thepostboardapp.com" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-3.jpg" alt="project name" />
+                                <img class="img-fluid project-image" src="assets/images/projects/project-3.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://thepostboardapp.com" target="_blank">PostBoard</a></h3>
-                                    <p class="mb-2">PostBoard is a side project for learning the MERN stack. It is a web app for finding local garage sales. Frontend is built on React, backend is built on Express/Node, data store is on MongoDB Atlas. Planning to also use React Native for native mobile apps, and running backend using serverless</p>
+                                    <p class="mb-2">PostBoard is an app that empowers everyday people by 
+                                        <ul>
+                                            <li>Uses TypeScript to improve developer experience by structuring data and catching errors before runtime</li>
+                                            <li>Implemented GraphQL as an abstraction layer on top of the backend to simplify client-side requests for data</li>
+                                        </ul>
+
+                                    </p>
                                     <p><a class="more-link" href="http://github.com/jmora060/postboard-frontend" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub - React Frontend</a></p>
                                     <p><a class="more-link" href="http://github.com/jmora060/postboard-backend" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub - Express/Node Backend</a></p>
                                 </div><!--//desc-->                          
@@ -113,39 +170,9 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://github.com/jmora060/shareq-backend-graphql" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://github.com/jmora060/shareq-backend-graphql" target="_blank">ShareQ Backend Redesign with GraphQL</a></h3>
-                                    <p class="mb-2">Redesigning the ShareQ backend with Express/Node, Graphql, apollo-server, graphql-subscriptions</p>
-                                    <p><a class="more-link" href="https://github.com/jmora060/shareq-backend-graphql" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                
                 </section><!--//section-->        
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Manager <span class="place"><a href="#">Rolling Robots</a></span> <span class="year">(Sept 2018 - Present)</span></h3>
-                                <p>
-                                    Demonstrates leadership skills by scheduling 4 employees, organizing facilities, and coordinating curriculum
-                                </p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"> Network Communications Intern <span class="place"><a href="#">Creative Artists Agency</a></span> <span class="year">(June 2018 - Aug 2018)</span></h3>
-                                <p>Worked with the Infrastructure Operations team to facilitate Voice/Video communication services</p>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
                 
                 <section class="github section">
                     <div class="section-inner">
@@ -175,64 +202,7 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro"></p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Python <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Python is my primary language. I use it with Django"><i class="fas fa-info-circle"></i>3 Years</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="60%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">C++ <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I was raised with C++ in college."><i class="fas fa-info-circle"></i>5 Years</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="100%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
 
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; React.js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Used Javascript in React. Will then use it in Node as well."><i class="fas fa-info-circle"></i>1 Year</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="20%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                
-                                <div class="item">
-                                    <h3 class="level-title">PostgresSQL <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Comfortable with RDBMS."><i class="fas fa-info-circle"></i>2 Years</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="40%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Machine Learning <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I took a ML class in college."><i class="fas fa-info-circle"></i>1 Years</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="10%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-
-                                <p>Other: Git, Django, SpringBoot, AWS, Lucene</p>
-                                
-                                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> -->
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
                 <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
@@ -245,36 +215,62 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro"></p>
+                            
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">JS/HTML/CSS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Also used CSS frameworks like MaterializeCSS"><i class="fas fa-info-circle"></i>2.5 Years</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">JavaScript Frontend Frameworks<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Built multiple projects with React and Angular"><i class="fas fa-info-circle"></i>2 Years</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Node<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Using node in multiple side projects"><i class="fas fa-info-circle"></i>2 Years</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">SQL<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Comfortable with Postgres."><i class="fas fa-info-circle"></i>3 Years</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="100%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <p>Other: Git, Nginx, Docker</p>
+                                
+                                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> -->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
                 <aside class="credits aside section">
                     <div class="section-inner">
                         <h2 class="heading">Credits</h2>
-                        <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://jquery.com/" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery RSS</a></li>
-                                
-                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
-                            </ul>
-                            
-                            <hr/>
-                            
+                        <div class="content">                            
                              <p class="pt-2">This Bootstrap 4 portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
                              <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
                              
                              <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
-                            <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
-                            
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
-                            
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
